@@ -1,0 +1,15 @@
+﻿<Window x:Class="Event_handing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Event_handing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="事件处理1" HorizontalAlignment="Left" Margin="30,59,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="事件处理2" HorizontalAlignment="Left" Margin="30,296,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <ListBox Name="fire_box" HorizontalAlignment="Left" Height="354" Margin="130,36,0,0" VerticalAlignment="Top" Width="625"/>
+
+    </Grid>
+</Window>
